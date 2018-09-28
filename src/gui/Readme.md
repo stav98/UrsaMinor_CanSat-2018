@@ -1,5 +1,6 @@
 [EN]
-The scripts are written in Processing Language 3.3.6 and implement the base station's graphical interface.
+The scripts are written in Processing Language 3.3.6 and implement the base station's graphical interface. The inspiration came from
+M.Furkan Bahat's project (http://mfurkanbahat.blogspot.com.tr/)
 The parent script is cansat_ground.pde which we run when the base station board is connected to
 one free USB port.
 In line 34, we modify the code to connect to the serial port.
@@ -8,7 +9,8 @@ Serial.list () [0] means COM1, Serial.list () [1] or COM2 etc.
 If the computer is a laptop and does not have physical serial ports, then we declare Serial.list () [0].
 
 [GR]
-Τα scripts είναι γραμμένα σε γλώσσα Processing 3.3.6 και υλοποιούν το γραφικό περιβάλλον του σταθμού βάσης.
+Τα scripts είναι γραμμένα σε γλώσσα Processing 3.3.6 και υλοποιούν το γραφικό περιβάλλον του σταθμού βάσης. Η έμπνευση προήρθε από τo 
+έργο του M.Furkan Bahat (http://mfurkanbahat.blogspot.com.tr/)
 Το γονικό script είναι το cansat_ground.pde το οποίο το εκτελούμε εφόσον έχει συνδεθεί η πλακέτα του σταθμού βάσης σε 
 κάποια ελεύθερη θύρα USB.
 Στην γραμμή 34 τροποποιούμε τον κώδικα ώστε να συνδεθεί με την σειριακή θύρα.
