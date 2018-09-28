@@ -17,3 +17,5 @@ If the computer is a laptop and does not have physical serial ports, then we dec
 port = new Serial(this, Serial.list()[1], 115200);
 Το Serial.list()[0] σημαίνει η COM1, Serial.list()[1] η COM2 κλπ. Αν είναι φορητός και δεν διαθέτει φυσικές σειριακές θύρες, τότε
 δηλώνουμε Serial.list()[0].
+Εφόσον υπάρχει σύνδεση στο Internet, στις γραμμές 16 και 38 εισάγουμε ένα έγκυρο κλειδί για το API της Google ώστε να προβάλεται ο χάρτης
+από το Google maps.
