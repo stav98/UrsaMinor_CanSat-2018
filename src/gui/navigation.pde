@@ -13,7 +13,7 @@ void map_init()
  zoom = 19;
  longitude = "38.9524";
  latitude = "20.7438";
- google_maps = requestImage("https://maps.googleapis.com/maps/api/staticmap?size=240x240&zoom=5&maptype=satellite&markers=size:mid|color:red|38.9524,20.7438&key=AIzaSyAXT7Yv5vYAPKgR6UhkbNb1Hu7X28r8AaM", "png" );
+ google_maps = requestImage("https://maps.googleapis.com/maps/api/staticmap?size=240x240&zoom=5&maptype=satellite&markers=size:mid|color:red|38.9524,20.7438&key=insert a valid key", "png" );
 }
 
 void map_redraw()
@@ -35,7 +35,7 @@ void map_update()
 {
  //if (map_must_update)
  //   {
-     google_maps = requestImage("https://maps.googleapis.com/maps/api/staticmap?size=240x240&zoom="+zoom+"&maptype=satellite&markers=size:mid|color:red|"+longitude+","+latitude+"&key=AIzaSyAXT7Yv5vYAPKgR6UhkbNb1Hu7X28r8AaM", "png" );
+     google_maps = requestImage("https://maps.googleapis.com/maps/api/staticmap?size=240x240&zoom="+zoom+"&maptype=satellite&markers=size:mid|color:red|"+longitude+","+latitude+"&key=insert a valid key", "png" );
      image(google_maps, map_x, map_y);
  //   }
 }
